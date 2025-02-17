@@ -8,6 +8,10 @@
         "example": "example",
         "test": "test"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KIMJINWOO4/react-native-tab-screen.git"
+    },
     "scripts": {
         "build": "tsc",
         "prepare": "npm run build",
