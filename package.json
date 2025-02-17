@@ -13,7 +13,6 @@
         "prepare": "npm run build",
         "test": "jest"
     },
-    "keywords": [],
     "author": "Jinwoo Kim",
     "license": "MIT",
     "dependencies": {
@@ -35,5 +34,12 @@
     "files": [
         "lib",
         "src"
+    ],
+    "keywords": [
+        "react-native",
+        "tab view",
+        "custom tab",
+        "ui component",
+        "mobile"
     ]
 }
