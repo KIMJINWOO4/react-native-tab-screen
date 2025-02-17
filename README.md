@@ -78,8 +78,15 @@ const TabThreeScreen = () => (
 
 const SomeScreen = () => {
     return (
-        <TabView tabs={tabs} onTabChange={(index) => console.log(index)} tabBarPosition='top'>
-            {[<TabOneScreen key='tab1' />, <TabTwoScreen key='tab2' />, <TabThreeScreen key='tab3' />]}
+        <TabView
+            tabs={tabs}
+            onTabChange={(index) => console.log(index)}
+            tabBarPosition='top'>
+                {[
+                <TabOneScreen key='tab1' />,
+                <TabTwoScreen key='tab2' />,
+                <TabThreeScreen key='tab3' />
+                ]}
         </TabView>
     );
 };
