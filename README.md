@@ -1,5 +1,7 @@
 # React-Native-Tab-Screen ✨
 [![npm version](https://img.shields.io/npm/v/react-native-tab-screen.svg)](https://www.npmjs.com/package/react-native-tab-screen)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-tab-screen.svg)](https://www.npmjs.com/package/react-native-tab-screen)
+[![License: MIT](https://img.shields.io/npm/l/react-native-tab-screen.svg)](https://github.com/KIMJINWOO4/react-native-tab-screen/blob/main/LICENSE)
 
 
 A customizable React Native tab view component that allows you to easily position the tab bar at the top or bottom of the screen. Perfect for building flexible and engaging mobile interfaces! 🚀
