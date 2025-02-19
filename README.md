@@ -1,4 +1,6 @@
 # React-Native-Tab-Screen ✨
+[![npm version](https://img.shields.io/npm/v/react-native-tab-screen.svg)](https://www.npmjs.com/package/react-native-tab-screen)
+
 
 A customizable React Native tab view component that allows you to easily position the tab bar at the top or bottom of the screen. Perfect for building flexible and engaging mobile interfaces! 🚀
 
@@ -76,8 +78,15 @@ const TabThreeScreen = () => (
 
 const SomeScreen = () => {
     return (
-        <TabView tabs={tabs} onTabChange={(index) => console.log(index)} tabBarPosition='top'>
-            {[<TabOneScreen key='tab1' />, <TabTwoScreen key='tab2' />, <TabThreeScreen key='tab3' />]}
+        <TabView
+            tabs={tabs}
+            onTabChange={(index) => console.log(index)}
+            tabBarPosition='top'>
+                {[
+                <TabOneScreen key='tab1' />,
+                <TabTwoScreen key='tab2' />,
+                <TabThreeScreen key='tab3' />
+                ]}
         </TabView>
     );
 };
