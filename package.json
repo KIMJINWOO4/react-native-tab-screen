@@ -1,6 +1,6 @@
 {
     "name": "react-native-tab-screen",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "React Native tab view component with options to position the tab bar at the top or bottom.",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
